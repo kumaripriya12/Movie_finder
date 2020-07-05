@@ -1,3 +1,39 @@
+About - 
+This project is a movie finder website which tas 2 components, one with searh box anx search result & other with selected movie detail.
+Search Movie component - 
+		1- key up event in search box triggers api call to find movies with characters in the search box
+		2- Search box should have minimum 2 characters after trimming spaces
+		3- It should show 'No results found' if api does not give result for searched query.
+		4- list of movies should be shown if result comes from api call.
+		5- On click of any movie name, it should get redirected to http://localhost:3000/movie_detail with selected movie id & previous search results.
+
+Movie Detail component-
+		1- It gets redirected from search movie page
+		2- It should display movie poster, description, Starring, Genre & release date.
+		3- Back button present at the bottom of the page should take you back to search results page with previous search results.
+
+Test cases using jest & enzyme is written.
+
+Technial Concepts used-
+		1- Components
+		2- Router
+		3- Life cycle methods
+		4- keyup event
+		5- api call using axios
+		6- state, props & browser history
+		7- HTMl5
+		8- bootstrap4
+		9- table, row & columns to display data
+		10- Responzive web design
+		11- Jest & enzyme
+
+Techical skiils utilized- 
+		1- React js
+		2- Javascript
+		3- HTML5
+		4- Bootstrap4
+		5- Jest & Enzyme
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
