@@ -1,10 +1,10 @@
 About - 
-This project is a movie finder website which tas 2 components, one with searh box anx search result & other with selected movie detail.
+This project is a movie finder website which has 2 components, one with search box and search result & other with selected movie detail.
 Search Movie component - 
 		1- key up event in search box triggers api call to find movies with characters in the search box
 		2- Search box should have minimum 2 characters after trimming spaces
 		3- It should show 'No results found' if api does not give result for searched query.
-		4- list of movies should be shown if result comes from api call.
+		4- list of movies should be shown if the result will come from api call.
 		5- On click of any movie name, it should get redirected to http://localhost:3000/movie_detail with selected movie id & previous search results.
 
 Movie Detail component-
@@ -14,7 +14,7 @@ Movie Detail component-
 
 Test cases using jest & enzyme is written.
 
-Technial Concepts used-
+Technical Concepts used-
 		1- Components
 		2- Router
 		3- Life cycle methods
@@ -24,10 +24,10 @@ Technial Concepts used-
 		7- HTMl5
 		8- bootstrap4
 		9- table, row & columns to display data
-		10- Responzive web design
+		10- Responsive web design
 		11- Jest & enzyme
 
-Techical skiils utilized- 
+Technical skills utilized- 
 		1- React js
 		2- Javascript
 		3- HTML5
