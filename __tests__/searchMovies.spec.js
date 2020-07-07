@@ -22,10 +22,6 @@ configure({adapter: new Adapter()});
             expect(wrapper.find('input')).toHaveLength(1);
         });	
 
-        it('should not break with articles', ()=> {
-        	expect(wrapper.find("li")).toHaveLength(0);
-        });	
-
         it('should find movie name', ()=> {
         	// wrapper.find('input').simulate('change', {target: {value: 'marvel'}});
         	// expect(wrapper.find("ul")).toHaveLength(1);

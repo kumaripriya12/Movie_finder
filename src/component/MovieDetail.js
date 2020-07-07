@@ -46,14 +46,18 @@ class MovieDetail extends Component {
 				<div className="container pt-5">
 					<div className="row">
 						<div className="col-md-6">
-							<img className="img-fluid img-thumbnail" src={this.state.movie_detail.Poster} alt={this.state.movie_detail.Title} style={{width: 250+'px'}} height='250px' />
+							<img className="img-fluid img-thumbnail" src={this.state.movie_detail.Poster} alt={this.state.movie_detail.Title} style={{width: 350+'px'}} height='250px' />
 						</div>
 						<div className="col-md-6 text-left">
 							<h1 className="font-weight-bold">{this.state.movie_detail.Title}</h1>
-							<p>{this.state.movie_detail.Plot}</p>
+							<hr />
+							<strong>{this.state.movie_detail.Plot}</strong>
+							<hr />
 							Starring - {this.state.movie_detail.Actors}
-							<br />
-							<small>Released on {this.state.movie_detail.Released}</small>
+							<hr />
+							Genre - {this.state.movie_detail.Genre}
+							<hr />
+							<small>Released on - {this.state.movie_detail.Released}</small>
 						</div>
 					</div>
 

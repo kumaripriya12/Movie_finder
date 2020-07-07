@@ -86,11 +86,23 @@ class SearchMovie extends Component {
 				{
 					this.state.movies_result ?
 					<div>
-						<ul className="list-group pt-2">
-						    {
-						      this.state.movies_result.map((item, i) => <li className="list-group-item" key={i} onClick={(e) => this.handleClick(e, item.imdbID)}>{item.Title}</li>)
-						    }
-						</ul>
+					
+					    {
+					      this.state.movies_result.map((item, i) => 
+					      <div className="row border no-gutters my-2" key={i} onClick={(e) => this.handleClick(e, item.imdbID)}>
+						      <div className="col-sm-2">
+						      	<img className="img-fluid img-thumbnail" src={item.Poster} alt={item.Title} style={{width: 100+'px'}} height='100px' />
+						      </div>
+						      <div className="col-sm-8">
+						      	<strong>{item.Title}</strong>
+						      	<hr />
+						      	{item.Year}
+						      </div>
+					      </div>
+					     
+					      )
+					    }
+					
 					</div>
 					: null
 				}
