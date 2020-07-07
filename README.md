@@ -33,6 +33,12 @@ Technical skills utilized-
 		3- HTML5
 		4- Bootstrap4
 		5- Jest & Enzyme
+		
+![Screenshot (331)](https://user-images.githubusercontent.com/44428479/86777557-ee9a8780-c076-11ea-9e97-c56f6521e581.png)
+![Screenshot (339)](https://user-images.githubusercontent.com/44428479/86777563-f0644b00-c076-11ea-82e3-a81e1ec1ddfd.png)
+![Screenshot (340)](https://user-images.githubusercontent.com/44428479/86777566-f0fce180-c076-11ea-95d3-96be85504ef8.png)
+![Screenshot (341)](https://user-images.githubusercontent.com/44428479/86777567-f1957800-c076-11ea-8d16-1ae7b81389b2.png)
+![Screenshot (330)](https://user-images.githubusercontent.com/44428479/86777571-f22e0e80-c076-11ea-93d2-8cd28bfcc8ae.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
